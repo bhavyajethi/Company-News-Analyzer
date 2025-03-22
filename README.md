@@ -23,7 +23,7 @@ Follow these steps to install and run the application locally:
 ## Model Details 
 The project uses the following models and techniques for its core functionalities:
   **Sentiment Analysis:**
-    Model: SiEBERT (siebert/sentiment-roberta-large-english)
+    1. **Model: SiEBERT (siebert/sentiment-roberta-large-english)**
     A RoBERTa-large model fine-tuned for sentiment analysis in English.
     Provides binary sentiment classification ("positive" or "negative") with a confidence score.
     Used to analyze the sentiment of news article summaries.

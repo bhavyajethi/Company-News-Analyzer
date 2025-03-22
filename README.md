@@ -22,13 +22,14 @@ Follow these steps to install and run the application locally:
 
 ## Model Details 
 The project uses the following models and techniques for its core functionalities:
+
   **Sentiment Analysis:**
-    1. **Model: SiEBERT (siebert/sentiment-roberta-large-english)**
-    A RoBERTa-large model fine-tuned for sentiment analysis in English.
-    Provides binary sentiment classification ("positive" or "negative") with a confidence score.
-    Used to analyze the sentiment of news article summaries.
-    Source: Hugging Face Transformers library.
-    Truncation is enabled to handle long inputs (max 512 tokens).
+    1. **Model: SiEBERT (siebert/sentiment-roberta-large-english)**.
+    2. **A RoBERTa-large model fine-tuned for sentiment analysis in English***.
+    3. **Provides binary sentiment classification ("positive" or "negative") with a confidence score**.
+    4. **Used to analyze the sentiment of news article summaries**.
+    5. **Source: Hugging Face Transformers library**.
+    6. **Truncation is enabled to handle long inputs (max 512 tokens)**.
   **Topic Extraction:**
     Model: spaCy (en_core_web_sm)
     A small English language model for natural language processing.
